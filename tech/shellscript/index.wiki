@@ -1,0 +1,5 @@
+= index =
+
+bash syntaxes
+  * [[../bash/process-Substitutioin]]
+  * [[../bash/commands]]

@@ -1,0 +1,18 @@
+= programming languages =
+
+  * [[javascript/index]]
+  * [[react/index]]
+  * [[CSS/index]]
+  * [[python/index]]
+  * [[shellscript/index]]
+
+= env =
+
+  * [[hyper/index]]
+  * [[vim/index]]
+  * [[git/index]]
+  * [[bash/index]]
+
+= misk =
+
+  * [[live2d/index]]

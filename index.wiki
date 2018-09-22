@@ -1,0 +1,11 @@
+= index of wikis =
+
+  * general
+  * about wiki
+  * [[wiki2:index| projects]]
+  * [[tech/index]]
+  * [[wiki1:index| study notes]]
+
+
+== qiita posts ==
+

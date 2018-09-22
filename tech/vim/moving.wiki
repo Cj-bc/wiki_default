@@ -1,0 +1,6 @@
+
+ = 'g;' move to the line where last modified =
+
+ Jumps to the line that was modified at the last time.
+
+

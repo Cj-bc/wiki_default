@@ -1,0 +1,4 @@
+
+  == japanese urls ==
+  
+  * basic of react -- https://qiita.com/mysticatea/items/0141657e4478d9cf4614

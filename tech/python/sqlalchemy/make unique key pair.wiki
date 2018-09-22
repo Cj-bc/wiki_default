@@ -1,0 +1,35 @@
+= [[SQLAlchemy]] - make bind of two keys unique
+
+We can use 'UniqueConstraint' to force two keys pair to be unique.
+
+usage:
+```python
+class Human:
+    __table_args__ = (UniqueConstraint("first_name", "last_name", name="full_name"))  # the 'name' is not necessary
+
+    first_name = db.Column(db.String)
+    last_name = db.Column(db.String)
+    age = db.Column(db.Integer)
+```
+
+When we have this, we can't make object that have the same first_name & last_name.
+So, below code will output error
+```python
+db = SQLAlchemy()
+
+# add one human to DB
+boy = Human(first_name="Alan", last_name="Jackson", age=20)
+db.session.add(boy)
+db.session.commit()
+
+# add the same name human to DB (be failed)
+boy2 = Human(first_name="Alan", last_name="Jackson", age=15)
+db.session.add(boy)
+db.session.commit()
+```
+
+outputs below error:
+```
+sqlite3.IntegrityError: UNIQUE constraint failed: first_name, last_name
+```
+
