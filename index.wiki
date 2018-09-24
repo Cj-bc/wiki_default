@@ -7,5 +7,9 @@
   * [[wiki1:index| study notes]]
 
 
-== qiita posts ==
+== wikis ==
 
+  * [[wiki1:index| notes]]
+  * [[wiki2:index| projects]]
+  * [[wiki3:index| tfc]]
+  * [[wiki4:index| code-readings]]
