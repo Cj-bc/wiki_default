@@ -1,0 +1,3 @@
+= index =
+
+  * [[cooking-recipes/index]]

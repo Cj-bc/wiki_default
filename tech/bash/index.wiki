@@ -1,5 +1,8 @@
 = index =
 
+  * [[options]]
+  * [[useful-topics]]
+
 == syntaxes ==
 
   * [[process-Substitutioin]]

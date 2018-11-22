@@ -1,0 +1,26 @@
+= compgen =
+
+compgen is one of the well-known tab complete tool
+
+== display all variables that matches a word ==
+
+you can display all variables fit with a word by using `-A` option
+
+```bash
+$ compgen -A variable BASH
+BASH
+BASHOPTS
+BASHPID
+BASH_ALIASES
+BASH_ARGC
+BASH_ARGV
+BASH_CMDS
+BASH_COMMAND
+BASH_COMPLETION_VERSINFO
+BASH_LINENO
+BASH_REMATCH
+BASH_SOURCE
+BASH_SUBSHELL
+BASH_VERSINFO
+BASH_VERSION
+```

@@ -1,6 +1,6 @@
 = index of wikis =
 
-  * general
+  * [[general]]
   * about wiki
   * [[wiki2:index| projects]]
   * [[tech/index]]

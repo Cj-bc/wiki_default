@@ -3,3 +3,8 @@
 bash syntaxes
   * [[../bash/process-Substitutioin]]
   * [[../bash/commands]]
+
+
+= code reading =
+
+  * [[wiki4:bash-oo-framework/index| codereading of bash-oo-framework]]
